@@ -13,4 +13,8 @@ celebrities = ["Gigi Hadid", "Kendall Jenner", "Sam Smith", "Charlie Puth", "Rom
 iterate = log10
 
 student_names.each do |x|
-  student_names
+  student_celebrities[x] = celebrities[iterate]
+  iterate = 1 
+end 
+
+puts student_celebrities
